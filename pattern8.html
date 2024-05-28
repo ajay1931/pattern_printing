@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+            var row=10;
+            for(var i=row;i>=1;i--){
+                for(var m=1;m<=(row-i);m++){
+                    document.write("&nbsp;");
+                }
+                for(var j=i;j>=1;j--){
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+            for(var k=2;k<=row;k++){
+                for(var n=1;n<=(row-k);n++){
+                    document.write("&nbsp;");
+                }
+                for(var l=1;l<=k;l++){
+                    document.write("*");
+                }
+                document.write("<br>");
+            }
+        </script>
+    </body>
+</html>
