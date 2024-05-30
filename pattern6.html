@@ -2,23 +2,23 @@
 
 <body>
     <script>
-        var row = 10;
+        var row = 3;
         for (var i = 1; i <= row; i++) {
-            for (var m = 1; m <= (row-i+5); m++) {
+            for (var m = 1; m <= (row-i); m++) {
                 document.write("&nbsp;")
             }
             for (var j = 1; j <= i; j++) {
-                document.write("*");
+                document.write("* ");
             }
             document.write("<br>")
         }
         for (var k = (row - 1); k >= 1; k--) {
-            for (var n = 1; n <= (row-k+5); n++) {
+            for (var n = 1; n <= (row-k); n++) {
                     document.write("&nbsp;")
                 }
             for (var l = k; l >= 1; l--) {
                
-                document.write("*")
+                document.write("* ")
             }
             document.write("<br>")
         }

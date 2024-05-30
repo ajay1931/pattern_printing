@@ -3,10 +3,11 @@
 <body>
     <Script>
         var row = 5;
-        var col = 5;
         for (i = row; i >= 1; i--) {
+            let rest =1;
             for (j = i; j >= 1; j--) {
-                document.write("$");
+                document.write(rest +" ");
+                rest++;
             }
             document.write("<br>")
         }

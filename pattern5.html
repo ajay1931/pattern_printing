@@ -2,16 +2,20 @@
 
 <body>
     <script>
-        var row = 10
+        var row = 4
+        var q=1
+        var w=9
         for(var i=1;i<=row;i++){
             for(var j=1;j<=i;j++){
-                document.write("* ")
+                document.write(q +" ");
+                q++;
             }
             document.write("<br>")
         }
         for (var l = (row-1); l >= 1; l--) {
             for (var k = l; k >= 1; k--) {
-                document.write("* ")
+                document.write(w +" ");
+                w--;
             }
             document.write("<br>")
         }
