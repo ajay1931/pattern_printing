@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <body>
         <script>
             var row=10;
@@ -10,6 +10,26 @@
             }
             for(var k=2;k<=row;k++){
                 for(var l=1;l<=k;l++){
+                    document.write("* ")
+                }
+                document.write("<br>")
+            }
+        </script>
+    </body>
+</html> -->
+
+<html>
+    <body>
+        <script>
+            var row=10;
+            for(var i=-row;i<=row;i++){
+                if(i<0){
+                    var l=-i
+                }
+                else{
+                    l=i
+                }
+                for(var j=1;j<=l+1;j++){
                     document.write("* ")
                 }
                 document.write("<br>")
