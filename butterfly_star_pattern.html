@@ -1,0 +1,32 @@
+
+
+
+<html>
+    <body>
+        <script>
+            var row=11;
+            for (var i = 0; i <= row; i++) {
+            for (var j = -row; j <= row; j++) {
+                if (-(row - i) < j && j < (row - i)) {
+                    document.write("&nbsp;&nbsp;");
+                }
+                else {
+                    document.write("* ");
+                }
+            }
+            document.write("<br>");
+        }
+            for(var i=0;i<=row;i++){
+                for(var j=-row;j<=row;j++){
+                    if(-i<j && j<i){
+                        document.write("&nbsp;&nbsp;");
+                    }
+                    else{
+                        document.write("* ")
+                    }
+                }
+                document.write("<br>")
+            }
+        </script>
+    </body>
+</html>
