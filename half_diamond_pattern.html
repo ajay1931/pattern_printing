@@ -25,3 +25,23 @@
 
 </html>
 
+
+<html>
+
+<body>
+    <script>
+        var row = 5;
+        for (var i = -row; i <= row; i++) {
+            for (var j = 0; j <= row; j++) {
+                if (-(row - j) < i && i < (row - j))
+                    document.write("* ")
+                else
+                    document.write("&nbsp;&nbsp;")
+            }
+            document.write("<br>")
+        }
+    </script>
+</body>
+
+</html>
+
